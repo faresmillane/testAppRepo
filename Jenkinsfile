@@ -12,9 +12,7 @@ stages {
          stage("Prepare"){
        steps{
          script( 
-           pwd
-           ls
-           npm install
+           pwd &&    ls &&     npm install
            )
          }
      }
