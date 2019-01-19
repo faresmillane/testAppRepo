@@ -11,11 +11,11 @@ agent {
 stages {
          stage("Prepare"){
        steps{
-         sh '
+         script( 
            pwd
            ls
            npm install
-           '
+           )
          }
      }
 
