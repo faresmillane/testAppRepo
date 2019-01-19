@@ -12,7 +12,8 @@ stages {
          stage("Prepare"){
        steps{
          sh '''
-           sh ./test_jenkins.sh
+           pwd
+           ls
            npm install
            '''
          }
